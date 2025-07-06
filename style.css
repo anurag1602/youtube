@@ -1,3 +1,8 @@
+@font-face {
+    font-family: PlayFair Display;
+    src: url(./PlayFair\ Display.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -14,7 +19,7 @@ html,body{
 #bg{
     width: 100%;
     height: 100%;
-    background-image: url(bg.jpeg);
+    background-image: url(./bg.webp);
     background-size: cover;
 }
 
@@ -25,6 +30,7 @@ h1{
     transform: translate(-50%,-50%);
     font-size: 100px;
     color: #fff;
+    font-family: PlayFair Display;
     mix-blend-mode: difference;
     font-weight: 100;
 }
